@@ -27,7 +27,13 @@ function App() {
     <>
       <Auth />
 
-      <div></div>
+      <div>
+        <input type="text" placeholder='Movie Title...' />
+        <input type="number" placeholder='Release Date...' />
+        <input type="checkbox" placeholder='Release Date...' />
+        <label htmlFor="">Premiadas</label>
+        <button>Submit Movie</button>
+      </div>
 
 
       <div>
